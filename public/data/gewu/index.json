@@ -1,0 +1,255 @@
+{
+  "categories": [
+    {
+      "id": "gongyi",
+      "name": "工艺营造"
+    },
+    {
+      "id": "yiyao",
+      "name": "医药本草"
+    },
+    {
+      "id": "nongshu",
+      "name": "农书"
+    },
+    {
+      "id": "suanli",
+      "name": "算历"
+    },
+    {
+      "id": "dili",
+      "name": "地理博物"
+    },
+    {
+      "id": "shenghuo",
+      "name": "生活艺术"
+    }
+  ],
+  "books": [
+    {
+      "id": "kaogongji",
+      "icon": "🛠️",
+      "name": "考工记",
+      "meta": "先秦·齐官书 · 现存最早手工业技术文献",
+      "person": "齐官工",
+      "portrait": "kaogongji.jpg",
+      "category": "工艺营造",
+      "era": "先秦",
+      "src": "books/kaogongji.json"
+    },
+    {
+      "id": "zaofashi",
+      "icon": "🏯",
+      "name": "营造法式",
+      "meta": "北宋·李诫 · 1103 年刊行 · 官式建筑规范",
+      "person": "李诫",
+      "portrait": "zaofashi.jpg",
+      "category": "工艺营造",
+      "era": "五代两宋",
+      "src": "books/zaofashi.json"
+    },
+    {
+      "id": "tiangongkaiwu",
+      "icon": "🌾",
+      "name": "天工开物",
+      "meta": "明·宋应星 · 1637 年初刊 · 农业手工业百科",
+      "person": "宋应星",
+      "portrait": "tiangongkaiwu.jpg",
+      "category": "工艺营造",
+      "era": "明清",
+      "src": "books/tiangongkaiwu.json"
+    },
+    {
+      "id": "mengxi",
+      "icon": "🔬",
+      "name": "梦溪笔谈",
+      "meta": "北宋·沈括 · 1086-1093 年 · 笔记体科技百科",
+      "person": "沈括",
+      "portrait": "mengxi.jpg",
+      "category": "工艺营造",
+      "era": "五代两宋",
+      "src": "books/mengxi.json"
+    },
+    {
+      "id": "neijing",
+      "icon": "🌿",
+      "name": "黄帝内经",
+      "meta": "先秦-汉 · 非一人一时之作 · 中医奠基",
+      "person": "岐黄医家",
+      "portrait": "neijing.jpg",
+      "category": "医药本草",
+      "era": "汉魏",
+      "src": "books/neijing.json"
+    },
+    {
+      "id": "shanghan",
+      "icon": "💊",
+      "name": "伤寒杂病论",
+      "meta": "东汉·张仲景 · 约200年 · 方书之祖",
+      "person": "张仲景",
+      "portrait": "shanghan.jpg",
+      "category": "医药本草",
+      "era": "汉魏",
+      "src": "books/shanghan.json"
+    },
+    {
+      "id": "bencaogangmu",
+      "icon": "🌿",
+      "name": "本草纲目",
+      "meta": "明·李时珍 · 1578 年成书 · 1593 年刊",
+      "person": "李时珍",
+      "portrait": "bencaogangmu.jpg",
+      "category": "医药本草",
+      "era": "明清",
+      "src": "books/bencaogangmu.json"
+    },
+    {
+      "id": "qianjin",
+      "icon": "⚕️",
+      "name": "千金要方",
+      "meta": "唐·孙思邈 · 652 年 · 临床方书与医德纲领",
+      "person": "孙思邈",
+      "portrait": "qianjin.jpg",
+      "category": "医药本草",
+      "era": "唐",
+      "src": "books/qianjin.json"
+    },
+    {
+      "id": "qimin",
+      "icon": "🌱",
+      "name": "齐民要术",
+      "meta": "北魏·贾思勰 · 约533-544年 · 现存最早完整农书",
+      "person": "贾思勰",
+      "portrait": "qimin.jpg",
+      "category": "农书",
+      "era": "汉魏",
+      "src": "books/qimin.json"
+    },
+    {
+      "id": "nongzheng",
+      "icon": "🚜",
+      "name": "农政全书",
+      "meta": "明·徐光启 · 1639 年刊 · 农书集大成",
+      "person": "徐光启",
+      "portrait": "nongzheng.jpg",
+      "category": "农书",
+      "era": "明清",
+      "src": "books/nongzheng.json"
+    },
+    {
+      "id": "jiuzhang",
+      "icon": "🔢",
+      "name": "九章算术",
+      "meta": "汉 · 中国数学奠基 · 九卷 246 题",
+      "person": "汉算家",
+      "portrait": "jiuzhang.jpg",
+      "category": "算历",
+      "era": "汉魏",
+      "src": "books/jiuzhang.json"
+    },
+    {
+      "id": "zhoubi",
+      "icon": "🌌",
+      "name": "周髀算经",
+      "meta": "汉 · 盖天说 + 勾股定理 · 天文数学",
+      "person": "周髀算家",
+      "portrait": "zhoubi.jpg",
+      "category": "算历",
+      "era": "汉魏",
+      "src": "books/zhoubi.json"
+    },
+    {
+      "id": "shoushili",
+      "icon": "📅",
+      "name": "授时历",
+      "meta": "元·郭守敬 · 1280 年 · 中国古代最精良历法",
+      "person": "郭守敬",
+      "portrait": "shoushili.jpg",
+      "category": "算历",
+      "era": "元",
+      "src": "books/shoushili.json"
+    },
+    {
+      "id": "shuijingzhu",
+      "icon": "🏞️",
+      "name": "水经注",
+      "meta": "北魏·郦道元 · 约527年 · 地理学名著",
+      "person": "郦道元",
+      "portrait": "shuijingzhu.jpg",
+      "category": "地理博物",
+      "era": "汉魏",
+      "src": "books/shuijingzhu.json"
+    },
+    {
+      "id": "xuaxiake",
+      "icon": "🚶",
+      "name": "徐霞客游记",
+      "meta": "明·徐弘祖 · 1641年身后刊 · 实地考察游记",
+      "person": "徐霞客",
+      "portrait": "xuaxiake.jpg",
+      "category": "地理博物",
+      "era": "明清",
+      "src": "books/xuaxiake.json"
+    },
+    {
+      "id": "chajing",
+      "icon": "🍵",
+      "name": "茶经",
+      "meta": "唐·陆羽 · 780 年 · 世界第一部茶学专著",
+      "person": "陆羽",
+      "portrait": "chajing.jpg",
+      "category": "生活艺术",
+      "era": "唐",
+      "src": "books/chajing.json"
+    },
+    {
+      "id": "yuanye",
+      "icon": "🏡",
+      "name": "园冶",
+      "meta": "明·计成 · 1631 年 · 世界最早造园学专著",
+      "person": "计成",
+      "portrait": "yuanye.jpg",
+      "category": "生活艺术",
+      "era": "明清",
+      "src": "books/yuanye.json"
+    }
+  ],
+  "artifacts": {
+    "src": "artifacts.json",
+    "count": 59,
+    "byGroup": {
+      "工艺营造": 16,
+      "医药本草": 13,
+      "农书": 6,
+      "算历": 11,
+      "地理博物": 6,
+      "生活艺术": 7
+    }
+  },
+  "discourses": {
+    "src": "discourses.json",
+    "count": 14,
+    "byGroup": {
+      "工艺营造": 4,
+      "算历": 2,
+      "医药本草": 3,
+      "地理博物": 2,
+      "农书": 1,
+      "生活艺术": 2
+    }
+  },
+  "cases": {
+    "src": "cases.json",
+    "count": 12,
+    "byGroup": {
+      "gongyi": 2,
+      "yiyao": 2,
+      "nongshu": 2,
+      "suanli": 2,
+      "dili": 2,
+      "shenghuo": 2
+    }
+  },
+  "places": [],
+  "routes": []
+}

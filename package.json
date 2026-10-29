@@ -1,0 +1,22 @@
+{
+  "name": "shanhe-jingwei",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate:lineages && next build && node scripts/prepare-pages.mjs",
+    "typecheck": "tsc --noEmit",
+    "validate:lineages": "node scripts/validate-lineages.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}
