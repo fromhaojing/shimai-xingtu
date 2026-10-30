@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
-const basePath = isGitHubPages ? "/shanhe-jingwei" : "";
+const basePath = isGitHubPages ? "/shimai-xingtu" : "";
 
 const nextConfig: NextConfig = {
   output: "export",

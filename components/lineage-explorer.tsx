@@ -56,7 +56,7 @@ const relationLabels: Record<RelationType, string> = {
   cousin: '堂亲',
   influence: '影响',
   response: '回应',
-  teacher: '师承',
+  teacher: '受教',
 };
 
 const modeCopy: Record<Mode, { label: string; eyebrow: string; description: string; unit: string }> = {
@@ -69,7 +69,7 @@ const modeCopy: Record<Mode, { label: string; eyebrow: string; description: stri
   schools: {
     label: '思想传承',
     eyebrow: 'IDEAS / 思想',
-    description: '以典籍为节点，分别观察师承、影响与观点回应。',
+    description: '以典籍为节点，分别观察受教、影响与观点回应。',
     unit: '部典籍',
   },
 };
@@ -217,7 +217,7 @@ export default function LineageExplorer({ lineages, entries }: Props) {
             <p className={styles.chartCount}><strong>{orderedIds.length}</strong><span>{modeCopy[mode].unit}<br />{edges.length} 条有据关联</span></p>
           </div>
           <p className={styles.groupDescription}>{group.description}</p>
-          <div className={styles.readingNote}><span aria-hidden="true">※</span><p>纵向排列只表示时间与资料编排。仅有标记且附依据的线表示关系；继位、亲属、师承、影响与回应各有不同含义。相邻条目不一定有血缘或直接师承，观点回应也不等于学说承续。</p></div>
+          <div className={styles.readingNote}><span aria-hidden="true">※</span><p>纵向排列只表示时间与资料编排。仅有标记且附依据的线表示关系；继位、亲属、受教、影响与回应各有不同含义。相邻条目不一定有血缘或直接受教关系，观点回应也不等于学说承续。</p></div>
 
           <div className={styles.legend} aria-label="本组关系类型">
             <strong>关系标记</strong>

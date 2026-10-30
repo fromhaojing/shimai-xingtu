@@ -3,7 +3,7 @@ import { assetUrl } from '../lib/paths';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: { default: '山河经纬 · 中华历史资料馆', template: '%s · 山河经纬' },
+  title: { default: '史脉星图 · 中华历史资料馆', template: '%s · 史脉星图' },
   description: '一座可检索的中华历史资料馆。沿着帝王、思想、诗词、工艺、神话与历史事件，重新阅读中国历史。',
   icons: { icon: assetUrl('favicon.svg') },
 };

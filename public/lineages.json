@@ -1190,89 +1190,89 @@
     },
     {
       "id": "qing",
-      "label": "清",
+      "label": "后金—清",
       "description": "按原始索引排列。父子、堂兄弟和叔侄关系与皇位交接分别用不同连线表示。",
       "stages": [
         {
           "id": "qing-1",
-          "label": "第 1 位馆藏帝王",
+          "label": "第 1 位世系君主",
           "nodes": [
             "emperor-qing-emp-taizu"
           ]
         },
         {
           "id": "qing-2",
-          "label": "第 2 位馆藏帝王",
+          "label": "第 2 位世系君主",
           "nodes": [
             "emperor-qing-emp-taizong"
           ]
         },
         {
           "id": "qing-3",
-          "label": "第 3 位馆藏帝王",
+          "label": "第 3 位世系君主",
           "nodes": [
             "emperor-qing-emp-shizu"
           ]
         },
         {
           "id": "qing-4",
-          "label": "第 4 位馆藏帝王",
+          "label": "第 4 位世系君主",
           "nodes": [
             "emperor-qing-emp-shengzu"
           ]
         },
         {
           "id": "qing-5",
-          "label": "第 5 位馆藏帝王",
+          "label": "第 5 位世系君主",
           "nodes": [
             "emperor-qing-emp-shizong"
           ]
         },
         {
           "id": "qing-6",
-          "label": "第 6 位馆藏帝王",
+          "label": "第 6 位世系君主",
           "nodes": [
             "emperor-qing-emp-gaozong"
           ]
         },
         {
           "id": "qing-7",
-          "label": "第 7 位馆藏帝王",
+          "label": "第 7 位世系君主",
           "nodes": [
             "emperor-qing-emp-renzong"
           ]
         },
         {
           "id": "qing-8",
-          "label": "第 8 位馆藏帝王",
+          "label": "第 8 位世系君主",
           "nodes": [
             "emperor-qing-emp-xuanzong"
           ]
         },
         {
           "id": "qing-9",
-          "label": "第 9 位馆藏帝王",
+          "label": "第 9 位世系君主",
           "nodes": [
             "emperor-qing-emp-wenzong"
           ]
         },
         {
           "id": "qing-10",
-          "label": "第 10 位馆藏帝王",
+          "label": "第 10 位世系君主",
           "nodes": [
             "emperor-qing-emp-muzong"
           ]
         },
         {
           "id": "qing-11",
-          "label": "第 11 位馆藏帝王",
+          "label": "第 11 位世系君主",
           "nodes": [
             "emperor-qing-emp-dezong"
           ]
         },
         {
           "id": "qing-12",
-          "label": "第 12 位馆藏帝王",
+          "label": "第 12 位世系君主",
           "nodes": [
             "emperor-qing-emp-xuandi"
           ]
@@ -1657,17 +1657,17 @@
           "from": "book-lixue-taitushuo",
           "to": "book-lixue-shirenpian",
           "type": "teacher",
-          "label": "周敦颐授程颢",
+          "label": "少年短暂受教",
           "evidencePath": "data/lixue/books/taitushuo.json",
-          "note": "原资料记载程颢拜周敦颐为师。"
+          "note": "程颢少年时曾短暂从周敦颐受教；此线只表示早年受教，不等于直接道统传承。"
         },
         {
           "from": "book-lixue-taitushuo",
           "to": "book-lixue-yichuan",
           "type": "teacher",
-          "label": "周敦颐授程颐",
+          "label": "少年短暂受教",
           "evidencePath": "data/lixue/books/taitushuo.json",
-          "note": "原资料记载程颐拜周敦颐为师。"
+          "note": "程颐少年时曾短暂从周敦颐受教；此线只表示早年受教，不等于直接道统传承。"
         },
         {
           "from": "book-lixue-shirenpian",
@@ -1679,19 +1679,11 @@
         },
         {
           "from": "book-lixue-taitushuo",
-          "to": "book-lixue-zhengmeng",
-          "type": "influence",
-          "label": "讲《易》启发",
-          "evidencePath": "data/lixue/books/taitushuo.json",
-          "note": "原资料称张载听周敦颐讲《易》；不标为直接师生。"
-        },
-        {
-          "from": "book-lixue-taitushuo",
           "to": "book-lixue-zhuziyulei",
           "type": "influence",
-          "label": "理学继承",
+          "label": "朱熹推重周敦颐",
           "evidencePath": "data/lixue/books/taitushuo.json",
-          "note": "资料明确说朱熹自认周敦颐学术继承者。"
+          "note": "朱熹注解并推重《太极图说》，将周敦颐置于理学源流的重要位置。"
         },
         {
           "from": "book-lixue-yichuan",

@@ -401,3 +401,19 @@ main { flex: 1; }
   .about-content aside p { display: none; }
   .about-content aside a { min-height: 44px; padding: 9px 11px; }
 }
+
+.graph-demo-callout { position: relative; min-height: 148px; margin: 0 0 22px; padding: 24px 29px; display: flex; align-items: center; gap: 23px; overflow: hidden; border: 1px solid #435e61; background: radial-gradient(circle at 87% 38%, #35636b 0, #1c3941 33%, #132c34 70%); color: #f5f0e6; text-decoration: none; transition: border-color .2s, transform .2s; }
+.graph-demo-callout:hover { border-color: #d4af78; transform: translateY(-2px); }
+.graph-demo-symbol { position: relative; width: 75px; height: 75px; flex: none; border: 1px solid #d8b78478; border-radius: 50%; box-shadow: 0 0 0 12px #d8b78412, inset 0 0 18px #d8b7842b; }
+.graph-demo-symbol::before, .graph-demo-symbol::after { content: ""; position: absolute; left: 50%; top: 50%; width: 90px; height: 1px; background: #d8b78477; transform: translate(-50%,-50%) rotate(28deg); }
+.graph-demo-symbol::after { transform: translate(-50%,-50%) rotate(-37deg); }
+.graph-demo-symbol i { position: absolute; z-index: 1; width: 7px; height: 7px; border-radius: 50%; background: #e8c087; box-shadow: 0 0 10px #e8c087b3; }
+.graph-demo-symbol i:nth-child(1) { left: 8px; top: 22px; } .graph-demo-symbol i:nth-child(2) { right: 13px; top: 10px; } .graph-demo-symbol i:nth-child(3) { left: 24px; bottom: 7px; } .graph-demo-symbol i:nth-child(4) { right: 6px; bottom: 24px; }
+.graph-demo-copy { position: relative; z-index: 1; display: flex; flex: 1; flex-direction: column; gap: 4px; min-width: 0; }
+.graph-demo-copy small { color: #e0b989; font-size: 10px; font-weight: 800; letter-spacing: .16em; }
+.graph-demo-copy strong { font: 650 clamp(22px, 2.3vw, 30px)/1.35 var(--font-serif); letter-spacing: .04em; }
+.graph-demo-copy > span { color: #d2dedb; font-size: 12px; }
+.graph-demo-action { position: relative; z-index: 1; flex: none; min-height: 44px; display: inline-flex; align-items: center; gap: 8px; color: #efcf9f; font-size: 13px; font-weight: 750; }
+.graph-demo-action .icon { width: 16px; }
+@media (max-width: 640px) { .graph-demo-callout { min-height: 0; padding: 23px 19px; gap: 17px; flex-wrap: wrap; } .graph-demo-symbol { width: 54px; height: 54px; } .graph-demo-symbol::before, .graph-demo-symbol::after { width: 62px; } .graph-demo-copy { flex-basis: calc(100% - 80px); } .graph-demo-copy strong { font-size: 23px; } .graph-demo-copy > span { font-size: 11px; } .graph-demo-action { margin-left: 71px; } }
+@media (prefers-reduced-motion: reduce) { .graph-demo-callout { transition: none; } }

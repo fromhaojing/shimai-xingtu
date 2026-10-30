@@ -88,7 +88,7 @@ function FeatureCard({ entry, group }: { entry: Entry; group: Group }) {
       <p>{entry.description}</p>
       <Link className="feature-action" href={`/entry/${entrySlug(entry)}/`}>展开这条资料 <Icon name="arrow" /></Link>
     </div>
-    <div className="feature-visual"><Portrait entry={entry} featured /><span className="feature-stamp" aria-hidden="true">山河经纬</span></div>
+    <div className="feature-visual"><Portrait entry={entry} featured /><span className="feature-stamp" aria-hidden="true">史脉星图</span></div>
   </article>;
 }
 
@@ -165,6 +165,7 @@ export default function LibraryClient({ catalogue }: { catalogue: Catalogue }) {
             <div><p className="eyebrow">{info.eyebrow}</p><h1 id="sectionTitle">{query.trim() ? `检索「${query.trim()}」` : info.title}</h1><p className="section-description">{query.trim() ? '按标题、人物、时期与内容线索检索馆藏资料。' : info.description}</p></div>
             <div className="result-total"><span>{filtered.length}</span><small>条资料</small></div>
           </div>
+          {group === 'all' && !query.trim() && <Link className="graph-demo-callout" href="/graph/" aria-label="打开 3D 历史关系星图样机"><span className="graph-demo-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span className="graph-demo-copy"><small>NEW EXPERIENCE / 3D 样机</small><strong>走进历史关系星图</strong><span>后金—清世系与理学心学，沿着有依据的节点和连线探索。</span></span><span className="graph-demo-action">进入星图 <Icon name="arrow" /></span></Link>}
           {feature && <FeatureCard entry={feature} group={group} />}
           <div className="results-bar"><div className="results-label"><span className="eyebrow">COLLECTION</span><h2>{query.trim() ? '检索结果' : group === 'all' ? '全部馆藏' : `${info.label}资料`}</h2></div><p role="status" aria-live="polite">{filtered.length ? `已展示 ${visible.length + (feature ? 1 : 0)} / ${filtered.length} 条` : '没有找到相符的资料'}</p></div>
           <div className="card-grid">{visible.length ? visible.map((entry, index) => <RecordCard key={entry.id} entry={entry} index={index} />) : <div className="empty-state"><h3>暂时没有结果</h3><p>换一个关键词，或清除筛选条件再看看。</p><button type="button" onClick={clear}>查看全部馆藏</button></div>}</div>

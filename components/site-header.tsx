@@ -46,9 +46,9 @@ export function SiteHeader({ counts, activeGroup, query = '', onGroupChange, onS
   return <>
     <header className="site-header">
       <div className="header-inner">
-        <Link className="brand" href="/" aria-label="山河经纬，返回资料馆首页">
-          <span className="brand-mark" aria-hidden="true"><span>山河</span><span>经纬</span></span>
-          <span className="brand-copy"><strong>山河经纬</strong><small>CHINA HISTORY ARCHIVE</small></span>
+        <Link className="brand" href="/" aria-label="史脉星图，返回资料馆首页">
+          <span className="brand-mark" aria-hidden="true"><span>史脉</span><span>星图</span></span>
+          <span className="brand-copy"><strong>史脉星图</strong><small>CHINA HISTORY ARCHIVE</small></span>
         </Link>
         <div className="header-tools">
           <form className="search-field" role="search" onSubmit={submit}>

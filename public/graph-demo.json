@@ -1,0 +1,521 @@
+{
+  "nodes": [
+    {
+      "id": "emperor-qing-emp-taizu",
+      "title": "努尔哈赤",
+      "subtitle": "太祖",
+      "period": "1616—1626",
+      "description": "以十三副遗甲起兵的女真枭雄",
+      "portrait": "data/portraits/qing-taizu.jpg",
+      "group": "qing",
+      "stageLabel": "第 1 位世系君主",
+      "order": 0,
+      "position": [
+        1.35,
+        -0.18,
+        1.35
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-taizong",
+      "title": "皇太极",
+      "subtitle": "太宗",
+      "period": "1626—1643",
+      "description": "从后金大汗到大清皇帝的皇太极",
+      "portrait": "data/portraits/qing-taizong.jpg",
+      "group": "qing",
+      "stageLabel": "第 2 位世系君主",
+      "order": 1,
+      "position": [
+        2.03,
+        1.32,
+        1.04
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-shizu",
+      "title": "福临",
+      "subtitle": "世祖",
+      "period": "1644—1661",
+      "description": "幼年即位、入关后在北京执政的顺治皇帝",
+      "portrait": "data/portraits/qing-shizu.jpg",
+      "group": "qing",
+      "stageLabel": "第 3 位世系君主",
+      "order": 2,
+      "position": [
+        2.71,
+        1.46,
+        0.26
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-shengzu",
+      "title": "玄烨",
+      "subtitle": "圣祖",
+      "period": "1661—1722",
+      "description": "擒鳌拜、平三藩、收台湾的千古一帝",
+      "portrait": "data/portraits/qing-shengzu.jpg",
+      "group": "qing",
+      "stageLabel": "第 4 位世系君主",
+      "order": 3,
+      "position": [
+        3.39,
+        1.39,
+        -0.65
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-shizong",
+      "title": "胤禛",
+      "subtitle": "世宗",
+      "period": "1722—1735",
+      "description": "在位仅十三年却把帝国重新拧紧的铁腕皇帝",
+      "portrait": "data/portraits/qing-shizong.jpg",
+      "group": "qing",
+      "stageLabel": "第 5 位世系君主",
+      "order": 4,
+      "position": [
+        4.07,
+        -0.08,
+        -1.25
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-gaozong",
+      "title": "弘历",
+      "subtitle": "高宗",
+      "period": "1735—1796",
+      "description": "写四万首诗、十全武功的太平天子",
+      "portrait": "data/portraits/qing-gaozong.jpg",
+      "group": "qing",
+      "stageLabel": "第 6 位世系君主",
+      "order": 5,
+      "position": [
+        4.75,
+        -0.89,
+        -1.29
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-renzong",
+      "title": "颙琰",
+      "subtitle": "仁宗",
+      "period": "1796—1820",
+      "description": "扳倒和珅却救不了大清的中庸皇帝",
+      "portrait": "data/portraits/qing-renzong.jpg",
+      "group": "qing",
+      "stageLabel": "第 7 位世系君主",
+      "order": 6,
+      "position": [
+        5.43,
+        -1.81,
+        -0.73
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-xuanzong",
+      "title": "旻宁",
+      "subtitle": "宣宗",
+      "period": "1820—1850",
+      "description": "在位期间经历鸦片战争与《南京条约》的道光皇帝",
+      "portrait": "data/portraits/qing-xuanzong.jpg",
+      "group": "qing",
+      "stageLabel": "第 8 位世系君主",
+      "order": 7,
+      "position": [
+        6.11,
+        -1.1,
+        0.16
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-wenzong",
+      "title": "奕詝",
+      "subtitle": "文宗",
+      "period": "1850—1861",
+      "description": "太平天国与第二次鸦片战争危机中的咸丰皇帝",
+      "portrait": "data/portraits/qing-wenzong.jpg",
+      "group": "qing",
+      "stageLabel": "第 9 位世系君主",
+      "order": 8,
+      "position": [
+        6.79,
+        -0.38,
+        0.98
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-muzong",
+      "title": "载淳",
+      "subtitle": "穆宗",
+      "period": "1861—1875",
+      "description": "幼年由两宫太后垂帘、成年短暂亲政的同治皇帝",
+      "portrait": "data/portraits/qing-muzong.jpg",
+      "group": "qing",
+      "stageLabel": "第 10 位世系君主",
+      "order": 9,
+      "position": [
+        7.47,
+        1.17,
+        1.35
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-dezong",
+      "title": "载湉",
+      "subtitle": "德宗",
+      "period": "1875—1908",
+      "description": "想变法却被姨妈软禁到死的皇帝",
+      "portrait": "data/portraits/qing-dezong.jpg",
+      "group": "qing",
+      "stageLabel": "第 11 位世系君主",
+      "order": 10,
+      "position": [
+        8.15,
+        1.44,
+        1.1
+      ]
+    },
+    {
+      "id": "emperor-qing-emp-xuandi",
+      "title": "溥仪",
+      "subtitle": "无（宣统帝）",
+      "period": "1908—1912",
+      "description": "中国两千年帝制的最后一位皇帝",
+      "portrait": "data/portraits/qing-xuandi.jpg",
+      "group": "qing",
+      "stageLabel": "第 12 位世系君主",
+      "order": 11,
+      "position": [
+        8.83,
+        1.52,
+        0.35
+      ]
+    },
+    {
+      "id": "book-lixue-taitushuo",
+      "title": "太极图说",
+      "subtitle": "周敦颐",
+      "period": "北宋·理学开山",
+      "description": "周敦颐（1017—1073），湖南道县人，世称濂溪先生，是北宋理学的重要先驱。程颢、程颐少年时曾短暂从他受教；南宋朱熹重视并注解《太极图说》，将他置于理学源流的重要位置。这篇约 250 字的短文，从无极、太极、阴阳五行讲到万物生成。",
+      "portrait": "data/portraits/zhoudunyi.jpg",
+      "group": "lixue",
+      "stageLabel": "北宋",
+      "order": 0,
+      "position": [
+        -8.3,
+        0.4,
+        0.3
+      ]
+    },
+    {
+      "id": "book-lixue-shirenpian",
+      "title": "识仁篇",
+      "subtitle": "程颢",
+      "period": "北宋·程朱理学之「程」",
+      "description": "程颢（1032-1085），洛阳人，世称明道先生。他和弟弟程颐合称「二程」，是程朱理学的「程」。程颢的学问偏温和——他主张「识仁」：你一旦真正体会到自己和万物是一体的，仁就在那里了，不用苦哈哈地去格物。",
+      "portrait": "data/portraits/chenghao.jpg",
+      "group": "lixue",
+      "stageLabel": "北宋",
+      "order": 1,
+      "position": [
+        -6.65,
+        2,
+        -0.75
+      ]
+    },
+    {
+      "id": "book-lixue-yichuan",
+      "title": "伊川易传",
+      "subtitle": "程颐",
+      "period": "北宋·程朱理学之「程」",
+      "description": "程颐（1033-1107），洛阳人，世称伊川先生。他是程颢的弟弟，但性格完全不同——程颢温和，程颐严肃。他给《周易》作注，写了《伊川易传》，是后世学《易》的标准注本。他讲「涵养须用敬，进学在致知」——这是程朱理学的方法论。",
+      "portrait": "data/portraits/chengyi.jpg",
+      "group": "lixue",
+      "stageLabel": "北宋",
+      "order": 2,
+      "position": [
+        -6.42,
+        -0.75,
+        1.15
+      ]
+    },
+    {
+      "id": "book-lixue-zhengmeng",
+      "title": "正蒙",
+      "subtitle": "张载",
+      "period": "北宋·关学·横渠四句",
+      "description": "张载（1020-1077），陕西眉县横渠镇人，世称横渠先生。他在关中讲学，学生多是秦人，学风朴实刚健，世称「关学」。他的《正蒙》是理学中最有气概的一部——开篇就说「太和所谓道」，把宇宙说成气的聚散。",
+      "portrait": "data/portraits/zhangzai.jpg",
+      "group": "lixue",
+      "stageLabel": "北宋",
+      "order": 3,
+      "position": [
+        -7.72,
+        -2.35,
+        -1.05
+      ]
+    },
+    {
+      "id": "book-lixue-zhuziyulei",
+      "title": "朱子语类",
+      "subtitle": "朱熹",
+      "period": "南宋·理学",
+      "description": "朱熹（1130-1200），徽州婺源人（今江西婺源），宋代理学集大成者。他注释的四书从元代起成为科举标准答案，影响中国 600 年。",
+      "portrait": "data/portraits/zhuxi.jpg",
+      "group": "lixue",
+      "stageLabel": "南宋",
+      "order": 4,
+      "position": [
+        -4.55,
+        0.38,
+        0.35
+      ]
+    },
+    {
+      "id": "book-lixue-chuanxilu",
+      "title": "传习录",
+      "subtitle": "王阳明",
+      "period": "明·心学",
+      "description": "王阳明（1472-1529），浙江余姚人。他是中国历史上罕见的「立德立功立言」三不朽：哲学家、军事家、政治家。他 35 岁时因得罪刘瑾被贬到贵州龙场驿，在那里「龙场悟道」。",
+      "portrait": "data/portraits/wangyangming.jpg",
+      "group": "lixue",
+      "stageLabel": "明",
+      "order": 5,
+      "position": [
+        -2.55,
+        0.96,
+        -0.62
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "emperor-qing-emp-taizu",
+      "to": "emperor-qing-emp-taizong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/taiZong.json",
+      "note": "皇太极是努尔哈赤第八子。"
+    },
+    {
+      "from": "emperor-qing-emp-taizu",
+      "to": "emperor-qing-emp-taizong",
+      "type": "succession",
+      "label": "诸贝勒推举",
+      "evidencePath": "data/qing/emperors/taiZu.json",
+      "note": "努尔哈赤去世后，皇太极被推举为汗。"
+    },
+    {
+      "from": "emperor-qing-emp-taizong",
+      "to": "emperor-qing-emp-shizu",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/shizu.json",
+      "note": "福临是皇太极第九子。"
+    },
+    {
+      "from": "emperor-qing-emp-taizong",
+      "to": "emperor-qing-emp-shizu",
+      "type": "succession",
+      "label": "诸王议立",
+      "evidencePath": "data/qing/emperors/taiZong.json",
+      "note": "皇太极未指定继承人，诸王议立福临。"
+    },
+    {
+      "from": "emperor-qing-emp-shizu",
+      "to": "emperor-qing-emp-shengzu",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/shengzu.json",
+      "note": "玄烨是福临第三子。"
+    },
+    {
+      "from": "emperor-qing-emp-shizu",
+      "to": "emperor-qing-emp-shengzu",
+      "type": "succession",
+      "label": "遗诏立帝",
+      "evidencePath": "data/qing/emperors/shizu.json"
+    },
+    {
+      "from": "emperor-qing-emp-shengzu",
+      "to": "emperor-qing-emp-shizong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/shengzu.json",
+      "note": "胤禛是玄烨第四子。"
+    },
+    {
+      "from": "emperor-qing-emp-shengzu",
+      "to": "emperor-qing-emp-shizong",
+      "type": "succession",
+      "label": "传位胤禛",
+      "evidencePath": "data/qing/emperors/shengzu.json",
+      "note": "野史改诏说见条目争议，不以传说替代继位事实。"
+    },
+    {
+      "from": "emperor-qing-emp-shizong",
+      "to": "emperor-qing-emp-gaozong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/shizong.json",
+      "note": "弘历是胤禛第四子。"
+    },
+    {
+      "from": "emperor-qing-emp-shizong",
+      "to": "emperor-qing-emp-gaozong",
+      "type": "succession",
+      "label": "传位弘历",
+      "evidencePath": "data/qing/emperors/shizong.json"
+    },
+    {
+      "from": "emperor-qing-emp-gaozong",
+      "to": "emperor-qing-emp-renzong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/renzong.json",
+      "note": "颙琰是弘历第十五子。"
+    },
+    {
+      "from": "emperor-qing-emp-gaozong",
+      "to": "emperor-qing-emp-renzong",
+      "type": "succession",
+      "label": "禅位颙琰",
+      "evidencePath": "data/qing/emperors/gaozong.json",
+      "note": "乾隆成为太上皇后仍掌实权。"
+    },
+    {
+      "from": "emperor-qing-emp-renzong",
+      "to": "emperor-qing-emp-xuanzong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/xuanzong.json",
+      "note": "旻宁是颙琰第二子。"
+    },
+    {
+      "from": "emperor-qing-emp-renzong",
+      "to": "emperor-qing-emp-xuanzong",
+      "type": "succession",
+      "label": "遗诏继位",
+      "evidencePath": "data/qing/emperors/renzong.json"
+    },
+    {
+      "from": "emperor-qing-emp-xuanzong",
+      "to": "emperor-qing-emp-wenzong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/wenzong.json",
+      "note": "奕詝是旻宁第四子。"
+    },
+    {
+      "from": "emperor-qing-emp-xuanzong",
+      "to": "emperor-qing-emp-wenzong",
+      "type": "succession",
+      "label": "皇四子继位",
+      "evidencePath": "data/qing/emperors/xuanzong.json"
+    },
+    {
+      "from": "emperor-qing-emp-wenzong",
+      "to": "emperor-qing-emp-muzong",
+      "type": "parent",
+      "label": "父子",
+      "evidencePath": "data/qing/emperors/muzong.json",
+      "note": "载淳是奕詝长子。"
+    },
+    {
+      "from": "emperor-qing-emp-wenzong",
+      "to": "emperor-qing-emp-muzong",
+      "type": "succession",
+      "label": "咸丰崩后即位",
+      "evidencePath": "data/qing/emperors/muzong.json"
+    },
+    {
+      "from": "emperor-qing-emp-muzong",
+      "to": "emperor-qing-emp-dezong",
+      "type": "cousin",
+      "label": "堂兄弟",
+      "evidencePath": "data/qing/emperors/muzong.json",
+      "note": "载湉是载淳的堂弟，不是儿子。"
+    },
+    {
+      "from": "emperor-qing-emp-muzong",
+      "to": "emperor-qing-emp-dezong",
+      "type": "succession",
+      "label": "无嗣后入继",
+      "evidencePath": "data/qing/emperors/dezong.json",
+      "note": "慈禧指定载湉入继大统。"
+    },
+    {
+      "from": "emperor-qing-emp-dezong",
+      "to": "emperor-qing-emp-xuandi",
+      "type": "uncle",
+      "label": "叔侄",
+      "evidencePath": "data/qing/emperors/xuandi.json",
+      "note": "溥仪生父载沣是光绪帝载湉之弟，故为生物学上的叔侄。"
+    },
+    {
+      "from": "emperor-qing-emp-dezong",
+      "to": "emperor-qing-emp-xuandi",
+      "type": "succession",
+      "label": "慈禧指定入承",
+      "evidencePath": "data/qing/emperors/xuandi.json",
+      "note": "溥仪并非载湉之子。"
+    },
+    {
+      "from": "book-lixue-taitushuo",
+      "to": "book-lixue-shirenpian",
+      "type": "teacher",
+      "label": "少年短暂受教",
+      "evidencePath": "data/lixue/books/taitushuo.json",
+      "note": "程颢少年时曾短暂从周敦颐受教；此线只表示早年受教，不等于直接道统传承。"
+    },
+    {
+      "from": "book-lixue-taitushuo",
+      "to": "book-lixue-yichuan",
+      "type": "teacher",
+      "label": "少年短暂受教",
+      "evidencePath": "data/lixue/books/taitushuo.json",
+      "note": "程颐少年时曾短暂从周敦颐受教；此线只表示早年受教，不等于直接道统传承。"
+    },
+    {
+      "from": "book-lixue-shirenpian",
+      "to": "book-lixue-yichuan",
+      "type": "sibling",
+      "label": "二程兄弟",
+      "evidencePath": "data/lixue/books/yichuan.json",
+      "note": "程颐是程颢的弟弟；此线是血缘，不表示师承。"
+    },
+    {
+      "from": "book-lixue-taitushuo",
+      "to": "book-lixue-zhuziyulei",
+      "type": "influence",
+      "label": "朱熹推重周敦颐",
+      "evidencePath": "data/lixue/books/taitushuo.json",
+      "note": "朱熹注解并推重《太极图说》，将周敦颐置于理学源流的重要位置。"
+    },
+    {
+      "from": "book-lixue-yichuan",
+      "to": "book-lixue-zhuziyulei",
+      "type": "influence",
+      "label": "继承敬与致知",
+      "evidencePath": "data/lixue/books/yichuan.json",
+      "note": "程颐两项方法被朱熹继承。"
+    },
+    {
+      "from": "book-lixue-shirenpian",
+      "to": "book-lixue-chuanxilu",
+      "type": "influence",
+      "label": "万物一体思想",
+      "evidencePath": "data/lixue/books/shirenpian.json",
+      "note": "资料将王阳明“万物一体”的论述追溯到程颢。"
+    },
+    {
+      "from": "book-lixue-zhuziyulei",
+      "to": "book-lixue-chuanxilu",
+      "type": "response",
+      "label": "回应朱熹格物说",
+      "evidencePath": "data/lixue/books/chuanxilu.json",
+      "note": "王阳明反驳朱熹的即物穷理；不是师生传承。"
+    }
+  ]
+}
